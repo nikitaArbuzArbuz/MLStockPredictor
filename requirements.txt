@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+loguru
+mlflow
+pandas
+python-dotenv
+prophet
+joblib
+requests
+pydantic
+psycopg2
