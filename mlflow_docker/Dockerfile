@@ -8,3 +8,5 @@ RUN apt-get update && apt-get install -y \
     && pip install --no-cache-dir psycopg2-binary \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
+
+ENV PATH="/usr/local/bin:${PATH}"
